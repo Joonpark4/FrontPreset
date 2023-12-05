@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+}
+
+.RouteApp {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	.grow { flex-grow: 1; } // 각 페이지마다 .grow를 적용해줘야합니다.
+}
+
+.Home, .About, .Contact, .Login {
+	@include Wrap($direction: column, $padding: 3em 7em);
+}
+
+.logo { font-size: 1.125em; }
