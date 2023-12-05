@@ -1,0 +1,7 @@
+.footer {
+	@include Wrap($height: 10em, $bG: #accc, $justify: space-between, $items: center, $padding: 0 7em);
+}
+
+.footer_con { display: flex; font-size: 0.875em; padding: 0.25em 0;
+	> div { margin: 0 0.25em; }
+}

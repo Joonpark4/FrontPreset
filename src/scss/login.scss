@@ -1,0 +1,50 @@
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+
+  .TitleContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Title {
+    font-size: 2em;
+  }
+
+  .FormContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .InputContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Label {
+    padding: 1rem 0;
+  }
+
+  .Input {
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+  }
+
+  .Input:focus {
+    border-color: #6b7280;
+  }
+
+  .SubmitButton {
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #374151;
+  }
+}

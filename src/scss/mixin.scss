@@ -1,0 +1,10 @@
+@mixin Wrap($height: auto, $bG: unset, $justify: normal, $direction: row, $items: normal, $padding: unset) {
+	display: flex;
+	max-width: 100%;
+	align-items: $items;
+	justify-content: $justify;
+	flex-direction: $direction;
+	height: $height;
+	padding: $padding;
+	background-color: $bG;
+}
