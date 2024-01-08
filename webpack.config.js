@@ -35,11 +35,11 @@ module.exports = {
         loader: "swc-loader",
       },
       {
-        test: /\.scss$/, // SCSS 파일에 대한 정규식 패턴
+        test: /\.css$/, // CSS 파일에 대한 정규식 패턴
         use: [
           "style-loader", // 스타일 태그를 생성하여 DOM에 적용
           "css-loader", // CSS를 CommonJS 모듈로 변환
-          "sass-loader", // SCSS를 CSS로 컴파일
+          "postcss-loader", // postcss를 CSS로 컴파일
         ],
       },
     ],
